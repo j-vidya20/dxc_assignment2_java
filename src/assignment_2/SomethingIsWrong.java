@@ -1,6 +1,16 @@
 package assignment_2;
+class Rectangle
+{
+	
+	int height,width;
 
-public class SomethingIsRight {
+	public int area()
+	{
+		return height*width;
+	}
+}
+
+public class SomethingIsWrong{
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
